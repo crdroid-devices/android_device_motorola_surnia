@@ -42,3 +42,7 @@ TARGET_POWERHAL_VARIANT := qcom
 
 # Properties
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
+
+# Kernel Toolchain
+KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/arm/arm-linux-androideabi-4.9/bin
+KERNEL_TOOLCHAIN_PREFIX := arm-linux-androideabi-
