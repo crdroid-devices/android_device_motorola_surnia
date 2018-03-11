@@ -33,7 +33,11 @@
 #include <sys/_system_properties.h>
 #include <android-base/properties.h>
 #include "vendor_init.h"
+#include "util.h"
+#include "log.h"
 #include "property_service.h"
+#include <android-base/logging.h>
+#include <android-base/properties.h>
 
 using android::base::GetProperty;
 using android::init::property_set;
