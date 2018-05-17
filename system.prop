@@ -3,6 +3,9 @@
 # Motorola
 ro.mot.build.customerid=retus
 
+# Camera
+ro.config.hw_camera_hdr=true
+
 # Audio
 persist.vendor.audio.fluence.speaker=true
 persist.vendor.audio.fluence.voicecall=true
