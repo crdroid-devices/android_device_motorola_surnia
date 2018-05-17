@@ -27,5 +27,10 @@ PRODUCT_BRAND := Motorola
 PRODUCT_MANUFACTURER := Motorola
 PRODUCT_RELEASE_NAME := surnia
 
+# Build Fingerprint
+BUILD_FINGERPRINT := motorola/surnia_retus/surnia_umts:5.0.2/LXI22.50-24.1/1:user/release-keys
+
+# BuildProp Values
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRODUCT_NAME="Moto E LTE (2nd gen)"
+    PRODUCT_NAME="Moto E LTE (2nd gen)" \
+    PRIVATE_BUILD_DESC="surnia_retus-user 5.0.2 LXI22.50-24.1 1 release-keys"

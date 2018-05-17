@@ -1,5 +1,8 @@
 # system.prop for surnia
 
+# Motorola
+ro.mot.build.customerid=retus
+
 # Audio
 persist.vendor.audio.fluence.speaker=true
 persist.vendor.audio.fluence.voicecall=true
